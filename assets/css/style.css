@@ -1,0 +1,61 @@
+@font-face{font-family:'Glyphicons Halflings';src:url(/assets/fonts/glyphicons-halflings-regular.eot);src:url(/assets/fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'),url(/assets/fonts/glyphicons-halflings-regular.woff) format('woff'),url(/assets/fonts/glyphicons-halflings-regular.ttf) format('truetype'),url(/assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')}@font-face{font-family:'FontAwesome';src:url(/assets/fonts/fontawesome-webfont.eot?v=4.1.0);src:url(/assets/fonts/fontawesome-webfont.eot?#iefix&v=4.1.0) format('embedded-opentype'),url(/assets/fonts/fontawesome-webfont.woff?v=4.1.0) format('woff'),url(/assets/fonts/fontawesome-webfont.ttf?v=4.1.0) format('truetype'),url(/assets/fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular) format('svg');font-weight:normal;font-style:normal}@font-face{font-family:'WYekan';src:url(/assets/fonts/WebYekan.eot?#iefix) format('embedded-opentype'),url(/assets/fonts/WebYekan.woff) format('woff'),url(/assets/fonts/WebYekan.ttf) format('truetype'),url(/assets/fonts/WebYekan.svg) format('svg')}@font-face{font-family:'WYekan';src:url(/assets/fonts/WebYekan.eot?#iefix) format('embedded-opentype),url(/assets/fonts/WebYekan.woff) format('woff),url(/assets/fonts/WebYekan.ttf) format('truetype),url(/assets/fonts/WebYekan.svg) format('svg);font-weight:bold}
+
+
+#topmenu {
+	font-size: 20px;
+}
+
+#topmenu .fa {
+	vertical-align: middle;
+}
+
+.category {
+	
+}
+
+.category h2 {
+	font-size: 28px;
+	font-family: WYekan;
+	border-bottom: 1px solid #ccc;
+	padding: 5px 0;
+	margin: 0;
+}
+
+.category ul {
+	clear: both;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.category ul li {
+	float: right;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+}
+
+.category a {
+	display: block;
+	margin: 5px;
+	padding: 5px 10px;
+	font-size: 16px;
+	font-family: WYekan;
+	border-radius: 4px;
+}
+
+.category a:hover {
+	background: #2980b9;
+	color: #fff;
+	text-shadow: 0 1px rgba(0,0,0,0.3);
+}
+
+#crumbs {
+	margin-bottom: 15px;
+}
+
+@media (min-width: 900px) {
+	#crumbs {
+		height: 40px;
+	}
+}

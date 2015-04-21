@@ -1,0 +1,62 @@
+<!doctype html>
+<html dir="rtl" lang="fa">
+<head>
+	<meta charset="utf-8">
+	<title>پرسش‌های متداول &bullet; {{ page.title }}</title>
+	<link rel="icon" type="image/png" href="http://www.cdn.my-bb.ir/images/favicon.png">
+	<meta name="Robots" content="index, follow"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="assets/js/jquery.js"></script>
+	<link href="http://www.cdn.my-bb.ir/css/css-v6.css" rel="stylesheet" type="text/css">
+	<link href="{{ site.url}}/assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div id="topmenu">
+			<i class="fa fa-question-circle"></i> پرسش‌های متداول
+		</div>
+		<div id="logo"> </div>
+		<ul class="menu">
+		<li><a href="http://faq.my-bb.ir" data-tooltip-placement="bottom-left" title="پرسش‌های متداول"><i class="fa fa-question-circle"></i> پرسش‌های متداول</a></li>
+		<li><a href="http://my-bb.ir/index.php" data-tooltip-placement="bottom" title="لیست انجمن ها و اطلاع از آخرین ارسال های انجمن"><i class="fa fa-th"></i> انجمن</a></li>
+		<li><a href="http://blog.my-bb.ir" data-tooltip-placement="bottom" title="وبلاگ پشتیبانی مای بی بی در ایران برای اطلاع از بروزرسانی ها و نسخه های جدید مای بی بی"><i class="fa fa-bell"></i> وبلاگ</a></li>
+		<li><a href="http://docs.my-bb.ir" data-tooltip-placement="bottom" title="این بخش کامل‌ترین مرجع برای حل مشکلات و آموزش‌ها برای هسته‌ی سیستم هست"><i class="fa fa-book"></i> مستندات</a></li>
+		<li class="minWidth100px"><a href="http://transfer.my-bb.ir/" data-tooltip-placement="bottom-right" title="در صورتی که اینترنت پر سرعت برای نصب سریع سیستم مای بی بی ندارید یا وقت این کار را ندارید می توانید از این قسمت با وارد کردن اطلاعات FTP مای بی بی را به سرعت آپلود کنید."><i class="fa fa-cloud-upload"></i> آپلود سریع</a></li>
+		<li class="hassubmenu"><a data-tooltip-placement="top" title="دیگر امکانات"><i class="fa fa-cogs"></i> دیگر امکانات </a>
+		<div class="submenu">
+		<ul>
+			<li><a href="http://themes.my-bb.ir/" data-tooltip-placement="right" title="بخش پوسته‌های مای بی‌بی"><i class="fa fa-check-circle"></i> پوسته‌ها</a></li>
+			<li><a href="http://download.my-bb.ir/" data-tooltip-placement="right" title="دریافت آخرین نسخه انجمن ساز مای بی بی"><i class="fa fa-cloud-download"></i> دریافت نسخه</a></li>
+			<li><a href="http://variables.my-bb.ir/" title="یک سیستم برای یافتن متغیر‌های مورد نیاز مای‌بی‌بی برای استفاده از آنها در قالب و پلاگین‌ها" data-tooltip-placement="right"><i class="fa fa-code"></i> بانک متغیر ها</a></li>
+			<li><a href="http://checktemplate.my-bb.ir" title="با این سیستم می‌توانید مشکلات امنیتی پوسته‌ی خود را پیدا کرده و آنها را رفع کنید" data-tooltip-placement="right"><i class="fa fa-eye"></i> بررسی‌کننده پوسته</a></li>
+			<li><a href="http://crossreference.my-bb.ir/" title="مشاهده فایل‌های اصلی مای‌بی‌بی" data-tooltip-placement="right"><i class="fa fa-files-o"></i> فایل‌های مای‌بی‌بی</a></li>
+		</ul>
+		</div>
+		</li>
+		</ul>
+	</header>
+	<hr class="hidden"/>
+	<br class="clear"/>
+	<div id="container">
+	<div id="crumbs">
+	<div class="float_left" id="userbrowser">
+	<i data-tooltip-placement="right" class="fa fa-desktop visible-lg visible-md" title="مای بی‌بی فارسی نسخه‌ی Desktop"></i>
+	<i data-tooltip-placement="right" class="fa fa-tablet visible-sm" title="مای بی‌بی فارسی نسخه‌ی Tablet"></i>
+	<i data-tooltip-placement="right" class="fa fa-mobile visible-xs" title="مای بی‌بی فارسی نسخه‌ی Mobile"></i>
+	</div>
+	<ul id="breadcrumb">
+	<li><a href="#">
+	<i class="fa fa-home"></i>
+	</a></li>
+	<li><a href="{{ site.url }}">سوالات متداول</a></li>
+	<li><a href="{{ page.url }}" class="active">{{ page.title }}</a></li>
+	<li><a> </a></li>
+	</ul></div>
+	<div id="content">
+		{{ content }}
+	</div>
+	</div>
+</body>
+</html>
+	

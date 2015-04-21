@@ -1,0 +1,13 @@
+<ul class="questions">
+	{% for question in site.posts | sort:order %}
+		{% if question.category == include.category %}
+			<li>
+				<a href="{{ question.url }}">
+					<i class="fa fa-question"></i> 
+					{{ question.title }}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
+<br class="clear">
